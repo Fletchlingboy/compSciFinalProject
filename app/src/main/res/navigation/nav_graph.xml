@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.cummings.honorsmobileapp.todolistapp.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_calendarScheduleFragment"
+            app:destination="@id/calendarScheduleFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_routineFragment"
+            app:destination="@id/routineFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/calendarScheduleFragment"
+        android:name="com.cummings.honorsmobileapp.todolistapp.CalendarScheduleFragment"
+        android:label="fragment_calendar_schedule"
+        tools:layout="@layout/fragment_calendar_schedule" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.cummings.honorsmobileapp.todolistapp.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/routineFragment"
+        android:name="com.cummings.honorsmobileapp.todolistapp.RoutineFragment"
+        android:label="fragment_routine"
+        tools:layout="@layout/fragment_routine" />
+</navigation>

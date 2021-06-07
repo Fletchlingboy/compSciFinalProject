@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ToDoListApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_item">ADD ITEM</string>
+    <string name="daily">Daily</string>
+    <string name="calendar">Calendar</string>
+    <string name="input_event_title">Input Event Title</string>
+    <string name="event_title">Event Title</string>
+    <string name="x">X</string>
+    <string name="_24_hour_time">24 Hour Time</string>
+    <string name="options">Options</string>
+    <string name="allow_notifications">Allow Notifications</string>
+    <string name="daily_routine">Daily Routine</string>
+</resources>
